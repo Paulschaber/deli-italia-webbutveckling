@@ -2,21 +2,20 @@
     margin:0;
 }
 
-header{
-    background-color: black;
-}
 
-header a{
+#hitta, #meny {
     color: black;
     background-color: darkorange;
     text-decoration: none;
     padding:10px;
     height:5vw;
-    width: 5vw;
+    width: 7vw;
+    border-radius: 2vw;
 }
 #logga{
     width:10vw ;
 }
+
 
 .bilder-bildspel {
   width:100%;
@@ -27,3 +26,8 @@ header a{
 }
 .fade-animation{animation:fading 7s infinite}
 @keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}}
+
+#bakgrund{
+    background-color: black;
+}
+
