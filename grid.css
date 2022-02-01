@@ -16,3 +16,8 @@ header a{
     display: flex;
     align-items: center;
 }
+
+.w3-content {
+  grid-column: -1/4;
+  grid-row: 2/3;
+}
