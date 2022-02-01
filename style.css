@@ -2,20 +2,31 @@
     margin:0;
 }
 
+#bakgrund{
+    background-color: black;
+}
+
 
 #hitta, #meny {
     color: black;
     background-color: darkorange;
     text-decoration: none;
+    font-size:3vw;
+    font-family: 'Rokkitt', serif;
     padding:10px;
     height:5vw;
     width: 7vw;
     border-radius: 2vw;
+
 }
+
 #logga{
     width:10vw ;
 }
 
+a:hover{
+  opacity:50%;
+}
 
 .bilder-bildspel {
   width:100%;
@@ -27,7 +38,21 @@
 .fade-animation{animation:fading 7s infinite}
 @keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}}
 
-#bakgrund{
-    background-color: black;
+#välkommen{
+    font-family: 'Rokkitt', serif;
+    font-size: 5vw;
+}
+
+#håll\ avstånd{
+    font-family: 'Rokkitt', serif;
+    font-size: 4vw;
+}
+#dagens{
+    font-family: 'Rokkitt', serif;
+    font-size: 5vw;
+}
+
+.imgcontent{
+    width:35vw;
 }
 
