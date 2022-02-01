@@ -13,13 +13,5 @@ header a{
     padding:10px;
     height:5vw;
     width: 5vw;
-    text-align: center;
-    justify-self: center;
 }
-#ett{
-    justify-content: center;
-}
-header a p{
-    text-align: center;
-    justify-self: center;
-}
+
