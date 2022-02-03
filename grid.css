@@ -57,7 +57,7 @@ img[alt="vår restaurant"]{
     grid-row: 3/4;
     grid-column: 2/-1;
 }
-#håll\ avstånd{
+#håll-avstånd{
     grid-row: 4/5;
     grid-column: 2/-1;
     text-align: center;
@@ -79,5 +79,37 @@ img[alt="restaurantens kockar"]{
     grid-column: 2/-1;
 }
 
+img[alt="Bild på dagens lunch"]{
+    grid-row: 6/7;
+    grid-column: 1/2;
+    margin-left: 5vw;   
+}
+
+.om-oss{
+    grid-row: 6/7;
+    grid-column: 2/-1;
+    text-align: center;
+}
+
+@media only screen and (max-width:850px) {
+    body{
+        display:grid;
+        grid-template-rows:10vw;
+        grid-template-columns: 100%;
+
+    }
+    .menyrad{
+        display:flex;
+        justify-content: space-evenly;
+    }
+    .content{
+        grid-row: 2/3;
+        grid-column: 1/-1;
+        align-self: center;
+    }
+
+
+    
+}
 
 >>>>>>> Stashed changes

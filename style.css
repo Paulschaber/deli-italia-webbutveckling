@@ -1,19 +1,23 @@
 *{
     margin:0;
 }
-
+body{
+    background: rgb(3,153,50);
+    background: linear-gradient(0deg, rgba(3,153,50,1) 0%, rgba(94,210,130,1) 25%, rgba(255,255,255,1) 50%, rgba(250,130,130,1) 75%, rgba(252,69,69,1) 100%);
+}
 #bakgrund{
     background-color: black;
+    filter: drop-shadow(0 2vw 1.3vw rgba(0,0,0,0.5));
+    z-index:-1;
 }
 
 
 #hitta, #meny {
     color: black;
     background-color: darkorange;
-    text-decoration: none;
     font-size:3vw;
     font-family: 'Rokkitt', serif;
-    padding:10px;
+    padding:1.5vw;
     height:5vw;
     width: 7vw;
     border-radius: 2vw;
@@ -28,6 +32,10 @@ a:hover{
   opacity:50%;
 }
 
+a{
+    text-decoration: none;  
+}
+
 .bilder-bildspel {
   width:100%;
 }
@@ -38,21 +46,20 @@ a:hover{
 .fade-animation{animation:fading 7s infinite}
 @keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}}
 
-#välkommen{
+h2 {
     font-family: 'Rokkitt', serif;
     font-size: 5vw;
 }
-
-#håll\ avstånd{
-    font-family: 'Rokkitt', serif;
-    font-size: 4vw;
-}
-#dagens{
-    font-family: 'Rokkitt', serif;
-    font-size: 5vw;
+#håll-avstånd{
+  font-family: 'Rokkitt', serif;
+ font-size: 5vw;
 }
 
 .imgcontent{
     width:35vw;
+    filter: drop-shadow(-1vw 2vw 1.3vw rgba(0,0,0,0.5));
 }
 
+p[class~="om-oss"] {
+   font-size: 1.5vw;
+}
