@@ -2,7 +2,7 @@ body {
     display:grid;
     grid-template-rows: 10vw auto auto auto auto;
     grid-template-columns: 1.2fr 0.4fr 0.4fr;
-    grid-row-gap: 4vw;
+    grid-row-gap: 15vw;
 }
 
 .menyrad {
@@ -50,7 +50,7 @@ body {
     grid-row: 3/4;
     grid-column: 1/2;
     justify-self: center;
-
+    text-align: center;
 }
 
 img[alt="vår restaurant"]{
