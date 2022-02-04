@@ -1,13 +1,17 @@
-body {
+#container {
     display:grid;
-    grid-template-rows: 10vw auto auto auto auto;
-    grid-template-columns: 1.2fr 0.4fr 0.4fr;
+    grid-template-rows:auto 0.1fr auto auto auto auto;
+    grid-template-columns: 1.2fr 0.8fr;
     grid-row-gap: 15vw;
 }
 
-.menyrad {
-    grid-row: 1/2;
-    grid-column: 1/-1;
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+header div{
+    display:flex;
 }
 
 #hitta, #meny{
@@ -20,73 +24,54 @@ body {
 }
 
 
-
-.w3-content {
-  grid-column: -1/4;
-  grid-row: 2/3;
+.slideshow-container {
+  grid-column: 1/-1;
+  grid-row: 1/2;
 }
 
 
-#logga{
-    grid-row: 1/2;
-    grid-column: 1/2;
-}
-
-#hitta{
-    grid-row:1/2;
-    grid-column:2/3;
-}
-
-#meny{
-    grid-row: 1/2;
-    grid-column:3/4;
-}
-#bakgrund{
-    grid-row: 1/2;
-    grid-column: 1/-1;
-}
 
 #välkommen{
-    grid-row: 3/4;
+    grid-row: 2/3;
     grid-column: 1/2;
     justify-self: center;
     text-align: center;
 }
 
 img[alt="vår restaurant"]{
-    grid-row: 3/4;
+    grid-row: 2/3;
     grid-column: 2/-1;
 }
 #håll-avstånd{
-    grid-row: 4/5;
+    grid-row: 3/4;
     grid-column: 2/-1;
     text-align: center;
     align-self: center;
     margin-right: 5vw;
 }
 img[alt~="bord"]{
-    grid-row:4/5;
+    grid-row:3/4;
     grid-column: 1/2;
     margin-left: 5vw;
 }
 #dagens{
-    grid-row:5/6;
+    grid-row:4/5;
     grid-column:1/2;
     text-align: center;
 }
 img[alt="restaurantens kockar"]{
-    grid-row: 5/6;
+    grid-row: 4/5;
     grid-column: 2/-1;
 }
 
 img[alt="Bild på dagens lunch"]{
-    grid-row: 6/7;
+    grid-row: 5/6;
     grid-column: 1/2;
     margin-left: 5vw;   
 }
 
 .om-oss{
-    grid-row: 6/7;
+    grid-row: 5/6;
     grid-column: 2/-1;
     text-align: center;
 }
@@ -96,12 +81,9 @@ img[alt="Bild på dagens lunch"]{
         display:grid;
         grid-template-rows:10vw;
         grid-template-columns: 100%;
+    }
 
-    }
-    .menyrad{
-        display:flex;
-        justify-content: space-evenly;
-    }
+
     .content{
         grid-row: 2/3;
         grid-column: 1/-1;
