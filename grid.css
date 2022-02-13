@@ -67,7 +67,7 @@ img[alt="restaurantens kockar"]{
 img[alt="Bild på dagens lunch"]{
     grid-row: 5/6;
     grid-column: 1/2;
-    margin-left: 5vw;   
+    margin-left: 5vw;
 }
 
 .om-oss{
@@ -90,8 +90,34 @@ img[alt="Bild på dagens lunch"]{
         align-self: center;
     }
 
-
-    
+/* Meny sidan */
+#gridmeny{
+  display:grid;
+  grid-template-rows:auto 0.1fr auto auto auto auto;
+  grid-template-columns: repeat(2,1fr);
+  grid-row-gap: 15vw;
 }
 
->>>>>>> Stashed changes
+.meny{
+  grid-column: 1/2;
+}
+
+.pris{
+  grid-column:2/3;
+}
+
+.antipasti{
+  grid-row: 1/2;
+}
+
+.pasta{
+  grid-row: 2/3;
+}
+
+.bildpizza{
+  grid-row:3/4;
+}
+
+.pizza{
+  grid-row:4/5;
+}
