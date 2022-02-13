@@ -36,7 +36,7 @@ a:hover{
 }
 
 a{
-    text-decoration: none;  
+    text-decoration: none;
 }
 
 .slide{
@@ -166,4 +166,19 @@ h2 {
 
 p[class~="om-oss"] {
    font-size: 1.5vw;
+}
+
+/* Meny sidan */
+.bildmat{
+  width:100%;
+}
+
+.bildpizza{
+  width: 50%;
+}
+
+.pris, .meny{
+  justify-self: center;
+  font-family: 'Rokkitt', serif;
+  font-size: 5vw;
 }
