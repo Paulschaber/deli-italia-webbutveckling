@@ -173,8 +173,14 @@ p[class~="om-oss"] {
   width:100%;
 }
 
+.textpabild{
+  justify-self: center;
+  font-family: 'Rokkitt', serif;
+  font-size: 7vw;
+}
+
 .bildpizza{
-  width: 50%;
+  width: 100%;
 }
 
 .pris, .meny{
