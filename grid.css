@@ -93,13 +93,14 @@ img[alt="Bild på dagens lunch"]{
 /* Meny sidan */
 #gridmeny{
   display:grid;
-  grid-template-rows: auto minmax(40px, auto);
+  grid-auto-rows: minmax(40px, auto);
   grid-template-columns: repeat(2, 1fr);
   grid-row-gap: 15vw;
 }
 
 .bildmat{
   grid-row:1/2;
+
 }
 
 .textpabild{
