@@ -169,8 +169,13 @@ p[class~="om-oss"] {
 }
 
 /* Meny sidan */
+img{
+    width: 100vw;
+}
+
 .bildmat{
-  width:100%;
+  width:100vw;
+  opacity: 70%;
 }
 
 .textpabild{
@@ -180,7 +185,7 @@ p[class~="om-oss"] {
 }
 
 .bildpizza{
-  width: 100%;
+  width: 50vw;
 }
 
 .pris, .meny{

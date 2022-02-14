@@ -93,7 +93,7 @@ img[alt="Bild på dagens lunch"]{
 /* Meny sidan */
 #gridmeny{
   display:grid;
-  grid-template-rows: auto minmax(40px auto);
+  grid-template-rows: auto minmax(40px, auto);
   grid-template-columns: repeat(2, 1fr);
   grid-row-gap: 15vw;
 }
@@ -134,6 +134,8 @@ img[alt="Bild på dagens lunch"]{
   grid-column:2/3;
 }
 
-.pizza{
-  grid-row:5/6;
+.pizza {
+    grid-row: 5/6;
 }
+}
+
