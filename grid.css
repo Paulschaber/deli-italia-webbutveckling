@@ -90,53 +90,5 @@ img[alt="Bild på dagens lunch"]{
         align-self: center;
     }
 
-/* Meny sidan */
-#gridmeny{
-  display:grid;
-  grid-auto-rows: minmax(40px, auto);
-  grid-template-columns: repeat(2, 1fr);
-  grid-row-gap: 15vw;
-}
-
-.bildmat{
-  grid-row:1/2;
-
-}
-
-.textpabild{
-  grid-row: 1/2;
-}
-
-.meny{
-  grid-column: 1/2;
-}
-
-.pris{
-  grid-column:2/3;
-}
-
-.antipasti{
-  grid-row: 2/3;
-}
-
-.pasta{
-  grid-row: 3/4;
-}
-
-.bildpizza{
-  grid-row:4/5;
-}
-
-.bild1{
-  grid-column:1/2;
-}
-
-.bild2{
-  grid-column:2/3;
-}
-
-.pizza {
-    grid-row: 5/6;
-}
 }
 

@@ -170,8 +170,9 @@ p[class~="om-oss"] {
 
 /* Meny sidan */
 img{
-    width: 100vw;
+    width:100%;
 }
+p.antipasti{}
 
 #logga[onclick="location.href='./index.html'"]:hover{
     cursor: pointer;
@@ -179,7 +180,7 @@ img{
 }
 
 .bildmat{
-  width:100vw;
+  width:100%;
   opacity: 70%;
 }
 
