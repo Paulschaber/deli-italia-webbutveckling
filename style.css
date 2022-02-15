@@ -168,13 +168,28 @@ p.antipasti{}
 
 .bildmat{
   width:100%;
-  opacity: 70%;
+}
+
+ul{
+  list-style-type: none;
 }
 
 .textpabild{
   justify-self: center;
   font-family: 'Rokkitt', serif;
   font-size: 7vw;
+  align-self:center;
+  color:black;
+}
+
+.meny, .pris{
+  margin-top: 10vw;
+}
+
+#antipasti, #pizza, #pasta{
+  font-size: 5vw;
+  font-family: 'Rokkitt', serif;
+  justify-self: center;
 }
 
 .bildpizza{
@@ -184,5 +199,5 @@ p.antipasti{}
 .pris, .meny{
   justify-self: center;
   font-family: 'Rokkitt', serif;
-  font-size: 5vw;
+  font-size: 3vw;
 }
