@@ -21,8 +21,6 @@ header{
     font-size:3vw;
     font-family: 'Rokkitt', serif;
     padding:1.5vw;
-    height:5vw;
-    width: 7vw;
     border-radius: 2vw;
 
 }
@@ -40,14 +38,13 @@ a{
 }
 
 .slide{
-    max-width:100%;
+   max-width:100vw;
 }
 
 
 
 /* Slideshow container */
 .slideshow-container {
-    max-width: 1000px;
     position: relative;
     margin: auto;
 }
@@ -138,17 +135,7 @@ a{
     to {opacity: 1}
 }
 
-/*
-.bilder-bildspel {
-  width:100%;
-}
-
-.bilder-bildspel {
-  display:none;
-}
-.fade-animation{animation:fading 7s infinite}
-@keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}}
-*/
+/*content style*/
 
 h2 {
     font-family: 'Rokkitt', serif;
