@@ -1,5 +1,7 @@
 *{
     margin:0;
+    font-family: 'Rokkitt', serif;
+
 }
 body{
     background: rgb(3,153,50);
@@ -19,7 +21,6 @@ header{
     color: black;
     background-color: darkorange;
     font-size:3vw;
-    font-family: 'Rokkitt', serif;
     padding:1.5vw;
     border-radius: 2vw;
 
@@ -191,4 +192,43 @@ p.antipasti{}
   justify-self: center;
   font-family: 'Rokkitt', serif;
   font-size: 5vw;
+}
+
+footer {
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
+footer, p {
+  font-size: 1.5vw;
+}
+
+.mapouter{
+  position:relative;
+  text-align:right;
+  height:400px;
+  width:100%;
+}
+
+.gmap_canvas {
+  overflow:hidden;
+  background:none!important;
+  height:500px;
+  width:100%;
+}
+
+#gmap_canvas {
+  width: 100%;
+  height: 400px;
+}
+
+.kontaktuppgifter{
+  padding: 30px;
+}
+.öppettider {
+  padding: 30px;
+}
+
+td {
+  padding: 5px;
 }
