@@ -28,12 +28,28 @@
     grid-row: 2/3;
 }
 
+#antipasti{
+  grid-column:1/-1;
+}
+
 .pasta{
-    grid-row: 3/4;
+    grid-row: 4/5;
+}
+
+#pasta{
+  grid-column:1/-1;
+}
+
+.bildpasta{
+  grid-row:3/4;
 }
 
 .bildpizza{
-    grid-row:4/5;
+    grid-row:5/6;
+}
+
+#pizza{
+  grid-column:1/-1;
 }
 
 .bild1{
@@ -45,5 +61,5 @@
 }
 
 .pizza {
-    grid-row: 5/6;
+    grid-row: 6/7;
 }
