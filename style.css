@@ -195,12 +195,21 @@ p.antipasti{}
 }
 
 footer {
-  background-color: #000000;
-  color: #FFFFFF;
+  background-color: black;
+  color: white;
 }
 
-footer, p {
+footer {
   font-size: 1.5vw;
+}
+
+footer a {
+  color: white;
+}
+
+footer h3 {
+  color: orange;
+  font-size: 2vw;
 }
 
 .mapouter{
@@ -213,7 +222,7 @@ footer, p {
 .gmap_canvas {
   overflow:hidden;
   background:none!important;
-  height:500px;
+  height:400px;
   width:100%;
 }
 
@@ -222,13 +231,10 @@ footer, p {
   height: 400px;
 }
 
-.kontaktuppgifter{
-  padding: 30px;
-}
-.öppettider {
+.kontaktuppgifter, .öppettider {
   padding: 30px;
 }
 
 td {
-  padding: 5px;
+  padding: 6px;
 }

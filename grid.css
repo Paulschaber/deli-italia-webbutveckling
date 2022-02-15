@@ -75,10 +75,6 @@ img[alt="Bild på dagens lunch"]{
     text-align: center;
 }
 
-<<<<<<< Updated upstream
-@media only screen and (max-width:600px) {
-    #container {
-=======
 footer{
   display: grid;
   grid-template-rows: auto;
@@ -100,17 +96,7 @@ footer{
   grid-row: 1/2;
 }
 
-@media only screen and (max-width:850px) {
-    body{
->>>>>>> Stashed changes
-        display:grid;
-        grid-template-rows:repeat(8, 10vw);
-        grid-template-columns: 1fr;
-    }
-
-    .content{
-
-    }
-
+@media only screen and (max-width:600px) {
+    
 
 }
