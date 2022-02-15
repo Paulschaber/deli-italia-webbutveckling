@@ -75,19 +75,17 @@ img[alt="Bild på dagens lunch"]{
     text-align: center;
 }
 
-@media only screen and (max-width:850px) {
-    body{
+@media only screen and (max-width:600px) {
+    #container {
         display:grid;
-        grid-template-rows:10vw;
-        grid-template-columns: 100%;
+        grid-template-rows:repeat(8, 10vw);
+        grid-template-columns: 1fr;
     }
-
 
     .content{
-        grid-row: 2/3;
-        grid-column: 1/-1;
-        align-self: center;
+
     }
+
 
 }
 
