@@ -45,7 +45,15 @@
 }
 
 .bildpizza{
-    grid-row:5/6;
+    grid-row:5/7;
+}
+
+#bild1{
+  grid-row:5/6;
+}
+
+#bild2{
+  grid-row:6/7;
 }
 
 #pizza{
@@ -61,5 +69,5 @@
 }
 
 .pizza {
-    grid-row: 6/7;
+    grid-row: 7/8;
 }
