@@ -90,3 +90,33 @@ header div{
 .pizza {
     grid-row: 6/7;
 }
+
+@media only screen and (max-width:600px){
+  .bildpasta{
+    grid-column:1/-1;
+  }
+
+  #pasta2{
+    grid-row:4/5;
+  }
+
+  .pasta{
+    grid-row: 5/6;
+  }
+
+  .bildpizza{
+    grid-row:6/8;
+  }
+
+  #bild1{
+    grid-row: 6/7;
+  }
+
+  #bild2{
+    grid-row:6/7;
+  }
+
+  .pizza{
+    grid-row:7/8;
+  }
+}
