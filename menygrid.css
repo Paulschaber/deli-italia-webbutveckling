@@ -5,6 +5,25 @@
     grid-row-gap: 15vw;
 }
 
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+header div{
+    display:flex;
+}
+
+#hitta, #meny{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    align-self: center;
+}
+
+
 .bildmat{
     grid-row:1/2;
     grid-column:1/-1;
