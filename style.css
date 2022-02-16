@@ -253,3 +253,29 @@ footer h3 {
 td {
   padding: 6px;
 }
+
+@media only screen and (max-width:600px) {
+  #meny, #hitta{
+    font-size: 5vw;
+  }
+
+  #logga{
+    width: 20vw;
+  }
+
+  .textpabild{
+    font-size: 15vw;
+  }
+
+  .pris, .meny{
+    font-size: 5vw;
+  }
+
+  #pizza, #pasta, #antipasti{
+    font-size: 7vw;
+  }
+
+  #pasta2{
+    margin-top: -15vw;
+  }
+}
