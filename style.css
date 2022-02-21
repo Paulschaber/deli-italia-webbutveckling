@@ -143,10 +143,6 @@ h2 {
     font-family: 'Rokkitt', serif;
     font-size: 5vw;
 }
-#håll-avstånd{
-  font-family: 'Rokkitt', serif;
- font-size: 5vw;
-}
 
 .imgcontent{
     width:35vw;
@@ -186,12 +182,16 @@ ul{
   color:black;
   padding:5vw;
   background-color: rgba(255, 140, 0, 0.90);
-    border-radius: 8vw;
+  border-radius: 8vw;
 }
 
 /* Style content */
 .meny, .pris{
   margin-top: 10vw;
+}
+
+.pizza{
+    margin-right: 15vw;
 }
 
 #antipasti, #pizza, #pasta{
@@ -262,27 +262,75 @@ td {
 }
 
 @media only screen and (max-width:600px) {
-  #meny, #hitta{
-    font-size: 5vw;
-  }
+    /*MQ-bildspel*/
+    .dot{
+        margin-bottom: 3vw;
+        height: 3vw;
+        width: 3vw;
+    }
 
-  #logga{
-    width: 20vw;
-  }
+    /*MQ-content*/
+    #välkommen{
+        border-bottom-right-radius: 7vw;
+        border-bottom-left-radius: 7vw;
+    }
+    h2{
+        font-size: 7vw;
+    }
+    .content{
+        overflow: visible;
+    }
 
-  .textpabild{
-    font-size: 15vw;
-  }
+    p[class~="om-oss"] {
+       font-size: 2vw;
+    }
+    ul{
+        padding: 0;
+    }
+    img.content{
+        width: 100%;
+        border-radius: 0;
+        margin-left:0 !important;
+        z-index: 1;
 
-  .pris, .meny{
-    font-size: 5vw;
-  }
+    }
+    h2.content, p.content{
+        z-index: 2;
+        padding: 5vw;
+        background-color: rgba(113, 113, 113, 0.75);
+        margin: 0 !important;
+        align-self: start;
+    }
+    a[href="meny.html#pasta"]{
+        font-size: 5vw;
+    }
+    /*MQ-footer*/
+    footer {
+      font-size: 2vw;
+    }        
 
-  #pizza, #pasta, #antipasti{
-    font-size: 7vw;
-  }
+    /*mediaquery-menysida*/
+    #meny, #hitta{
+      font-size: 5vw;
+    }
 
-  #pasta2{
-    margin-top: -15vw;
-  }
+    #logga{
+      width: 20vw;
+    }
+
+    .textpabild{
+      font-size: 15vw;
+    }
+
+    .pris, .meny{
+      font-size: 5vw;
+    }
+
+    #pizza, #pasta, #antipasti{
+      font-size: 7vw;
+    }
+
+    #pasta2{
+      margin-top: -15vw;
+    }
 }
