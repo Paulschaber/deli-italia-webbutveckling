@@ -164,7 +164,7 @@ img{
 }
 p.antipasti{}
 
-#logga[onclick="location.href='./index.html'"]:hover{
+#logga[onclick="location.href='./index.html'"]:hover{ /* När man håller musen över loggan ska den bli mindre synlig */
     cursor: pointer;
     opacity:50%;
 }
@@ -177,6 +177,7 @@ ul{
   list-style-type: none;
 }
 
+/* Länkarna på bilden */
 .textpabild{
   justify-self: center;
   font-family: 'Rokkitt', serif;
@@ -188,6 +189,7 @@ ul{
     border-radius: 8vw;
 }
 
+/* Style content */
 .meny, .pris{
   margin-top: 10vw;
 }
