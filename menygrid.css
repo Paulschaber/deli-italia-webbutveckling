@@ -91,6 +91,29 @@ header div {
     grid-row: 6/7;
 }
 
+/*footer*/
+footer {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr 2fr;
+}
+
+.kontaktuppgifter {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.öppettider {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.karta {
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+
+
 @media only screen and (max-width: 600px) {
     #gridmeny{
         grid-template-columns: 1fr 0.5fr 0.5fr;
