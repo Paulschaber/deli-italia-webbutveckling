@@ -1,20 +1,20 @@
 #container {
-    display:grid;
-    grid-template-rows: repeat(6, auto) ;
+    display: grid;
+    grid-template-rows: repeat(6, auto);
     grid-template-columns: 1.2fr 0.8fr;
     grid-row-gap: 15vw;
 }
 
-header{
+header {
     display: flex;
     justify-content: space-between;
 }
 
-header div{
-    display:flex;
+header div {
+    display: flex;
 }
 
-#hitta, #meny{
+#hitta, #meny {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -22,83 +22,87 @@ header div{
     align-self: center;
 }
 
- /*slideshow*/
+/*slideshow*/
 .slideshow-container {
-  grid-column: 1/-1;
-  grid-row: 1/2;
+    grid-column: 1/-1;
+    grid-row: 1/2;
 }
 
- /*content*/
-#välkommen{
+/*content*/
+#välkommen {
     grid-row: 2/3;
     grid-column: 1/2;
     justify-self: center;
     text-align: center;
 }
 
-img[alt="vår restaurant"]{
+img[alt="vår restaurant"] {
     grid-row: 2/3;
     grid-column: 2/-1;
 }
-#håll-avstånd{
+
+#håll-avstånd {
     grid-row: 3/4;
     grid-column: 2/-1;
     text-align: center;
     align-self: center;
     margin-right: 5vw;
 }
-img[alt~="bord"]{
-    grid-row:3/4;
+
+img[alt~="bord"] {
+    grid-row: 3/4;
     grid-column: 1/2;
     margin-left: 5vw;
 }
-#dagens{
-    grid-row:4/5;
-    grid-column:1/2;
+
+#dagens {
+    grid-row: 4/5;
+    grid-column: 1/2;
     text-align: center;
 }
-img[alt="restaurantens kockar"]{
+
+img[alt="restaurantens kockar"] {
     grid-row: 4/5;
     grid-column: 2/-1;
 }
 
-img[alt="Bild på dagens lunch"]{
+img[alt="Bild på dagens lunch"] {
     grid-row: 5/6;
     grid-column: 1/2;
     margin-left: 5vw;
 }
 
-.om-oss{
+.om-oss {
     grid-row: 5/6;
     grid-column: 2/-1;
     text-align: center;
-    margin-right: 5vw;  
+    margin-right: 5vw;
 }
 
 /*footer*/
-footer{
-  display: grid;
-  grid-template-rows: auto;
-  grid-template-columns: 1fr 1fr 2fr;
+footer {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr 2fr;
 }
 
 .kontaktuppgifter {
-  grid-column: 1/2;
-  grid-row: 1/2;
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
 
 .öppettider {
-  grid-column: 2/3;
-  grid-row: 1/2;
+    grid-column: 2/3;
+    grid-row: 1/2;
 }
 
 .karta {
-  grid-column: 3/4;
-  grid-row: 1/2;
+    grid-column: 3/4;
+    grid-row: 1/2;
 }
 
 
-@media only screen and (max-width:600px) {
+@media only screen and (max-width: 600px) {
     #container {
         grid-row-gap: 3vw;
     }
@@ -108,33 +112,28 @@ footer{
     }
 
     .mqrad1 {
-    !important;
         grid-column: 1/-1 !important;
         display: flex;
     }
 
     .mqrad2 {
-    !important;
         grid-column: 1/-1 !important;
         display: flex;
     }
 
     .mqrad3 {
-    !important;
         grid-row: 4/5 !important;
         grid-column: 1/-1 !important;
         display: flex;
     }
 
     .mqrad4 {
-    !important;
         grid-row: 5/6;
         grid-column: 1/-1 !important;
         display: flex;
     }
 
     .mqrad5 {
-    !important;
         grid-row: 6/7 !important;
         grid-column: 1/-1 !important;
         display: flex;
