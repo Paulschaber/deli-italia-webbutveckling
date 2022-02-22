@@ -190,7 +190,7 @@ ul{
   margin-top: 10vw;
 }
 
-.pizza{
+ul[class="pizza meny"]{
     margin-right: 15vw;
     margin-bottom: 5vw;
     justify-self:center;
