@@ -10,15 +10,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
     <body>
-    <!-- menyrad -->
+    <!-- navigeringsmeny -->
         <header>
-            <img src="img/logga.jpg" id="logga" alt="Bistro Webbutveckling"> <!-- Egen logga gjord med photoshop -->
+            <img src="img/logga.webp" id="logga" alt="Bistro Webbutveckling"> <!-- Egen logga gjord med photoshop -->
             <div>
                 <a class="menyknapp" href="#footer" id="hitta" >Hitta hit</a>
                 <a class="menyknapp" href=meny.html id="meny">Meny</a>
             </div>
         </header>
-    <!-- menyrad slut-->
+    <!-- navigeringsmeny slut-->
 
         <div id="container">
 
@@ -27,29 +27,33 @@
         <!--bildspel-->
             <div class="slideshow-container">
 
-                <!-- Slideshow container -->
+                <!-- Bildspels-container -->
                 <div class="slideshow-container">
 
-                    <!-- Full-width images with number and caption text -->
+                    <!-- Bilder till bildspelet -->
                     <div class="mySlides fade">
+<<<<<<< HEAD
                         <img class="slide" src="img/pexels-ella-olsson-1640777.jpg">
+=======
+                        <img class="slide" src="img/pexels-ella-olsson-1640777.webp" alt="bild på sallad">
+>>>>>>> 5c5f1339f62010889ab3c69716c85d502f048721
                     </div>
 
                     <div class="mySlides fade">
-                        <img class="slide" src="img/pexels-nastyasensei-821365.jpg" >
+                        <img class="slide" src="img/pexels-nastyasensei-821365.webp" alt="bild på ost">
                     </div>
 
                     <div class="mySlides fade">
-                        <img class="slide" src="img/pexels-trang-doan-769969.jpg" >
+                        <img class="slide" src="img/pexels-trang-doan-769969.webp" alt="bild på pasta">
                     </div>
 
-                    <!-- Next and previous buttons -->
+                    <!-- Knappar för att byta bild inom bildspelet -->
                     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
                     <a class="next" onclick="plusSlides(1)">&#10095;</a>
                 </div>
                 <br>
 
-                <!-- The dots/circles -->
+                <!-- Prickarna i bildspelet som illustrerar vilken bild som visas -->
                 <div style="text-align:center">
                     <span class="dot" onclick="currentSlide(1)"></span>
                     <span class="dot" onclick="currentSlide(2)"></span>
@@ -60,16 +64,16 @@
 
             <!--bildspel slut-->
 
-            <!--content-->
+            <!--huvudinnehåll-->
             <h2 class="content mqrad1" id="välkommen">Välkommen</h2>
-            <img class="imgcontent content mqrad1" src="img/restaurant.jpg" alt="vår restaurant">
-            <img class="imgcontent content mqrad2" src="img/dukat-bord.jpg" alt="ett dukat bord">
+            <img class="imgcontent content mqrad1" src="img/restaurant.webp" alt="vår restaurant">
+            <img class="imgcontent content mqrad2" src="img/dukat-bord.webp" alt="ett dukat bord">
             <h2 class="content mqrad2" id="håll-avstånd">Vänligen håll avstånd</h2>
-            <h2 class="content mqrad5" id="dagens">Dagens lunch <br> <a >Fettucine Al Gorgonzola</a></h2>
-            <img class="imgcontent content mqrad3" src="img/kockar.jpg" alt="restaurangens kockar">
-            <img class="imgcontent content mqrad5" src="img/pexels-engin-akyurt-1437267.jpg" alt="Bild på dagens lunch">
+            <h2 class="content mqrad5" id="dagens">Dagens lunch <br> <a href="meny.html#pasta" >Fettucine Al Gorgonzola</a></h2>
+            <img class="imgcontent content mqrad3" src="img/kockar.webp" alt="restaurangens kockar">
+            <img class="imgcontent content mqrad5" src="img/pexels-engin-akyurt-1437267.webp" alt="Bild på dagens lunch">
             <h2 class="om-oss content mqrad3" >Om oss</h2>
-            <p class="om-oss content mqrad4"><br><br><br>Odit quia voluptas sint ducimus similique odio et. Mollitia ipsam cupiditate culpa ut.<br> Modi quas dolorem voluptatem magni soluta quasi. <br>
+            <p class="om-oss content mqrad4">Odit quia voluptas sint ducimus similique odio et. Mollitia ipsam cupiditate culpa ut.<br> Modi quas dolorem voluptatem magni soluta quasi. <br>
 
                 Debitis fugiat soluta qui corporis.<br> Eligendi nesciunt voluptatibus quod ducimus veniam iste esse. <br> ea voluptatem magni voluptas.<br>
                 Saepe dolorem nisi omnis enim aut necessitatibus dolores nisi. <br> Dolorem vero et suscipit. Cum officiis ab doloribus est deleniti dignissimos enim.
@@ -94,15 +98,15 @@
             <br>
             <h4>Hemsida:</h4>
             <h4>
-              <a href=file:///Users/henrik.soderman/Documents/GitHub/deli-italia-webbutveckling/meny.html#pizza>deliitalia.se</a>
+              <a href=https://paulschaber.github.io/deli-italia-webbutveckling/>deliitalia.se</a>
             </h4>
           </div>
 
           <div class="öppettider">
               <!-- Tabell med öppettider -->
-            <h3>Öppettider</h3>
-            <br>
             <table>
+              <caption>Öppettider</caption>
+            <tr>
               <td>Måndag</td>
               <td>10:30 - 21:00</td>
             </tr>
@@ -142,7 +146,7 @@
           </div>
 
         </footer>
-
+        <!-- Länk till javascript-fil -->
         <script src="script.js"></script>
     </body>
 </html>
