@@ -193,6 +193,7 @@ ul{
 .pizza{
     margin-right: 15vw;
     margin-bottom: 5vw;
+    justify-self:center;
 }
 
 #antipasti, #pizza, #pasta{
