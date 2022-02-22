@@ -1,38 +1,18 @@
 
-//Bildspel
-/*var myIndex = 0;
-carousel();
-
-function carousel() {
-  var i;
-  var x = document.getElementsByClassName("bilder-bildspel");
-  for (i = 0; i < x.length; i++) {
-x[i].style.display = "none";
-}
-myIndex++;
-if (myIndex > x.length) {myIndex = 1}
-x[myIndex-1].style.display = "block";
-setTimeout(carousel, 5000); // Change image every 2 seconds
-}
-}
-
-}*/
-
-
-
 var slideIndex = 1;
 showSlides(slideIndex);
 
-// Next/previous controls
+// Nästa/förra kontroll
 function plusSlides(n) {
   showSlides(slideIndex += n);
 }
 
-// Thumbnail image controls
+// Vilken bild som ska visas först
 function currentSlide(n) {
   showSlides(slideIndex = n);
 }
 
+// Byter bild och respektive prick/punkt
 function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("mySlides");
@@ -61,5 +41,5 @@ function showSlides() {
   slideIndex++;
   if (slideIndex > slides.length) {slideIndex = 1}
   slides[slideIndex-1].style.display = "block";
-  setTimeout(showSlides, 4000); // Change image every 2 seconds
+  setTimeout(showSlides, 4000); // Byter bild var fjärde sekund
 }
