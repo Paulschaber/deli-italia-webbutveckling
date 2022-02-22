@@ -185,13 +185,14 @@ ul{
   border-radius: 8vw;
 }
 
-/* Style content */
+/* Style content*/
 .meny, .pris{
   margin-top: 10vw;
 }
 
 .pizza{
     margin-right: 15vw;
+    margin-bottom: 5vw;
 }
 
 #antipasti, #pizza, #pasta{
